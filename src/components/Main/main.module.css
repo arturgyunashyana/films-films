@@ -1,0 +1,9 @@
+.content {
+    margin-top: 50px;
+}
+
+.content img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

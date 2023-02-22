@@ -1,0 +1,15 @@
+.signin {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://img.kapital.kz/hNKP-mdAjCo/bG9jYWw6Ly8vMy9iLzYvMy80L2MzM2Y3Mzc2ODE3MzIzMzk5ZjU5YWJjY2MwOC5qcGc");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    width: clamp(300px, 50%, 1000px);
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}

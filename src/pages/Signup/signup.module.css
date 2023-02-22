@@ -1,0 +1,15 @@
+.signup {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://i.ytimg.com/vi/hSqFBa-06hg/maxresdefault.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    width: clamp(300px, 50%, 1000px);
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}

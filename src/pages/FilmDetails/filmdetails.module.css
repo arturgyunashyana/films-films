@@ -1,0 +1,42 @@
+.filmdetails {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/details-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.filmdetails video {
+    width: 100%;
+}
+
+.home__row {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    background-color: black;
+    padding: 50px;
+    gap: 4px;
+}
+
+.items {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width: 760px) {
+    .filmdetails .main {
+        flex-wrap: wrap;
+    }
+}

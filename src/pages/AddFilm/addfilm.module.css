@@ -1,0 +1,15 @@
+.content {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://www.universalpictures.com/assets/img/universal-share.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.field .form {
+    width: clamp(300px, 50%, 1000px);
+    background-color: rgb(189, 177, 44);
+    margin: 0 auto;
+    padding: 20px;
+}
